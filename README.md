@@ -1,2 +1,2 @@
 # NoahBanville.github.io
-Project revolving around learning and developing a web page. Feel free to give feedbacks.
+Project revolving around learning and web developemment. Feel free to give feedbacks.
