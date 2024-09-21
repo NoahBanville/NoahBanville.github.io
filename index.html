@@ -1,81 +1,43 @@
-<!--
-possède une photo de moi et une section "à propos de moi aka lettre de présentation"
-présente 4 sections: accueil, CV, portfolio, contact. 
-
-la page d'accueil possède aussi un lien vers une autre section : "parcours en génie physique "
-dans laquelle je présente c'est quoi le génie physique
--->
-<!--
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.5">
-    <title>Noah Banville</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-      Salut!, Le site est en construction mais tu peux visiter
-    </header>
-  <section>
-        <nav>
-            <ul>
-                <li>
-                    <a href = "CuriculumVitae.html">CV</a>
-                </li>
-            </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li>
-                    <a href = "presentation.html">présentation</a>
-                </li>
-            </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li>
-                    <a href = "genie_physique.html">Cheminement en génie physique</a>
-                </li>
-            </ul>
-        </nav>
-
-</section>
-    <footer>
-        <p>&copy; 2024 Noah Banville</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-
-
-</html> -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <button class="home-button">
-        <a href = "contact.html">Contact</a>
-
-</button>
-</head>
-<body>
-    
-    <div class="header">
-        <h1>Noah Banville</h1>
-    </div>
-    <div class="content">
-        <t1>Bonjour,</t1>
-        <t2>Je suis Noah</t2>
-        <t3>étudiant en génie physique</t3>
-        <p>***ajouter photo de moi à droite***</p>
-        <p>You can add more content here like a link to <a href = "portfolio.html">my portfolio,</a>.
-             try to add a button to download CV 
-             and buttons to: Compétences, expériences, présentation, Formation, centre d'intérêts, bénévolat, etc</p>
-    </div>
-    <div class="footer">
-        <p>Noah Banville © 2024</p>
-    </div>
-</body>
-</html>
+<header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#à-propos-de-moi">À propos de moi</a></li>
+        <li><a href="#compétences">Compétences</a></li>
+        <li><a href="#formation">Formation</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="à-propos-de-moi">
+      <h1>À propos de moi</h1>
+      <p>Je m'appelle Noah Banville, et je suis étudiant en génie physique à l'Université Laval. Passionné par la physique et les mathématiques, je suis toujours à la recherche de nouveaux défis et de nouvelles opportunités pour développer mes compétences.</p>
+    </section>
+  
+    <section id="compétences">
+      <h1>Compétences</h1>
+      <ul>
+        <li>Programmation en Python et C++</li>
+        <li>Analyse de données avec NumPy et Pandas</li>
+        <li>Simulation numérique avec MATLAB</li>
+        <li>Conception de systèmes mécaniques</li>
+      </ul>
+    </section>
+  
+    <section id="formation">
+      <h1>Formation</h1>
+      <p>Baccalauréat en génie physique, Université Laval (2020-2024)</p>
+      <h2>Formation continue</h2>
+      <p>Cours de spécialisation en intelligence artificielle, Université Laval (2022)</p>
+    </section>
+  
+    <section id="contact">
+      <h1>Contact</h1>
+      <p>
+        <a href="tel:+1-418-555-1234"># 418-555-1234</a><br>
+        <a href="mailto:noah.banville@ulaval.ca">noah.banville@ulaval.ca</a><br>
+        <a href="https://www.linkedin.com/in/noahbanville/">LinkedIn</a>
+      </p>
+    </section>
+  </main>

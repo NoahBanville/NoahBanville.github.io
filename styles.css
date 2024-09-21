@@ -1,73 +1,89 @@
-
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: white;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #f2f2f2, #706e6e);
+  background-size: 100vw 400vh;
+  background-attachment: scroll;
+  height: 100vh;
+  width: 100vw;
 }
 
-.header {
-    background-color: red;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 120%;
 }
 
-.content {
-    background: linear-gradient(to bottom, #8b8b8b, #3f3f3f);
-    padding: 20px;
-    min-height: 600px;
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-.footer {
-    background-color: red;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.nav-links li {
+  margin-right: 20px;
 }
 
-.home-button {
-    position: fixed;
-    top: 10px; /* adjust the top position to your liking */
-    right: 20px; /* adjust the right position to your liking */
-    z-index: 1; /* ensure the button is on top of other elements */
-    background-color: #afadad;
-    color: #000000;
-    padding: 10px 20px;
-    cursor: pointer;
-    border: none;
-    padding: 5px;
-    font-size: 10px;
-    height: 30px;
-    width: 50px;
-    transition: all 0.03s linear;
-  }
-  
-  .home-button:hover {
-    background-color: #e0e0e0;
-  }
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
 
-  t1 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 3px; 
-    display: block;/* add a larger margin between t1 and t2 */
-    margin-left: 200px;
-    margin-top: 100px; 
-  }
-  t2 {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 8px; 
-    display: block;/* add a smaller margin between t2 and t3 */
-    margin-left: 230px; 
-  }
-  t3 {
-    font-size: 15px;
-    /*font-weight: bold;*/
-    display: block;
-    margin-left: 260px; 
-  }
+.nav-links a:hover {
+  background-color: #444;
+}
 
-  
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+section {
+  background-color: #fff;
+  padding: 2em;
+  margin-top: 20px; /* added margin top to create gap between sections */
+  margin-bottom: 20px; /* kept margin bottom to maintain spacing */
+  box-shadow: 0 0 300px rgba(0, 0, 0, 0.1);
+  width: 800px; /* kept fixed width to sections */
+  margin: 10 auto; /* kept horizontal centering to sections */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  width: 800px; /* kept fixed width to paragraphs */
+}
+
+header nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
